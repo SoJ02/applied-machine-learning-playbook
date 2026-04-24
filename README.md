@@ -1,23 +1,80 @@
 # Applied Machine Learning Playbook
 
-This repository is a multi-domain ML notebook collection showcasing practical experimentation across supervised learning, unsupervised learning, deep learning, and reinforcement learning.
+This repository is a broad, hands-on ML notebook collection designed to showcase practical workflow depth across multiple paradigms:
 
-## What is included
+- supervised learning,
+- unsupervised learning,
+- deep learning,
+- reinforcement learning.
 
-- **Clustering:** customer segmentation and pattern discovery
-- **Neural networks / CV:** MNIST feed-forward and CNN workflows
-- **Reinforcement learning:** policy/value-based learning experiments
-- **Tabular modeling:** Iris, Penguins, Housing, and other structured datasets
+Rather than focusing on one benchmark, it demonstrates reusable modeling patterns across different data modalities and objectives.
 
-## Why this repo exists
+## Repository Purpose
 
-It acts as a compact playbook of reusable modeling patterns:
+The project serves as an experimentation playbook for:
 
-- data prep and feature workflows
-- model training and evaluation templates
-- cross-problem experimentation habits
+- data preparation templates,
+- baseline-to-advanced model progression,
+- evaluation and visualization habits,
+- cross-domain transfer of ML techniques.
 
-## How to run
+## Notebook Coverage by Domain
+
+### Tabular Supervised Learning
+
+- `Iris.ipynb`
+- `Penguins.ipynb`
+- `Housing.ipynb`
+
+Focus areas:
+
+- feature inspection,
+- train/test workflows,
+- baseline estimator comparisons.
+
+### Unsupervised Learning / Segmentation
+
+- `Mall_Customers_Clustering.ipynb`
+- `Wholesale_Customers_Clustering.ipynb`
+
+Focus areas:
+
+- cluster discovery,
+- segmentation interpretation,
+- unsupervised evaluation heuristics.
+
+### Neural Networks and Computer Vision
+
+- `MNIST_Neural_Network.ipynb`
+- `MNIST_Neural_Network_6_Obs.ipynb`
+- `CNN_w_MNIST.ipynb`
+
+Focus areas:
+
+- feed-forward vs convolutional architectures,
+- image classification training loops,
+- comparative learning behavior.
+
+### Reinforcement Learning
+
+- `Reinforcement_Learning.ipynb`
+
+Focus areas:
+
+- policy/value update concepts,
+- reward-driven optimization flow,
+- iterative agent behavior.
+
+## Tech Stack
+
+- Python
+- pandas, NumPy
+- scikit-learn
+- TensorFlow / PyTorch (notebook dependent)
+- matplotlib, seaborn
+- Jupyter
+
+## Environment Setup
 
 ```bash
 python -m venv venv
@@ -26,11 +83,17 @@ pip install pandas numpy scikit-learn matplotlib seaborn tensorflow torch jupyte
 jupyter lab
 ```
 
-Then run notebooks independently based on topic area.
+## Recommended Learning Path
 
-## Recommended viewing order
+1. Start with tabular notebooks to establish baseline workflow habits.
+2. Move to clustering notebooks for unsupervised reasoning.
+3. Continue to MNIST neural-network notebooks for deep learning progression.
+4. Finish with reinforcement learning to cover sequential decision making.
 
-1. Tabular notebooks (`Iris`, `Penguins`, `Housing`)
-2. Clustering notebooks
-3. MNIST neural network notebooks
-4. Reinforcement learning notebook
+## How to Evaluate This Repository
+
+For recruiters and reviewers, this repo demonstrates:
+
+- versatility across ML problem families,
+- consistent notebook-based experimentation discipline,
+- ability to move between theory and implementation quickly.
